@@ -13,12 +13,21 @@
     <title>Etch a sketch</title>
   </head>
   <body>
-    <div id="container">
-      <div id="grid"></div>
-      <div id="buttons">
-        <button>Reset</button>
-        <button>Start</button>
+    <div class="container_all">
+      <div class="bar">
+        <div class="container_etch">
+          <h1 class="title">Etch a sketch</h1>
+          <div class="container_buttons">
+            <button id="reset">Reset</button>
+            <button id="change_size">Cambiar tamaño</button>
+          </div>
+        </div>
       </div>
+
+      <div id="container"></div>
+    </div>
+    <div id="grid_size_title_container">
+      <p id="grid_size_title"></p>
     </div>
   </body>
   <script src="Etch-a-Sketch.js"></script>
